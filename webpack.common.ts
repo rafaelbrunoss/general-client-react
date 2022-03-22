@@ -21,8 +21,8 @@ const webpackConfig: Configuration = {
     extensions: ['.tsx', '.ts', 'jsx', '.js', '.css', '.scss'],
     plugins: [new TsconfigPathsPlugin({ configFile: './tsconfig.json' })],
     fallback: {
-      util: require.resolve('util/')
-    }
+      util: require.resolve('util/'),
+    },
   },
   module: {
     rules: [
