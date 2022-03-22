@@ -1,0 +1,28 @@
+/* 
+  This file should only contain the typography rules
+*/
+
+@import '../utilities/variables';
+
+.primary {
+  background-color: map-get($colors, primary);
+  color: map-get($colors, neutral);
+}
+
+.secondary {
+  background-color: map-get($colors, secondary);
+  color: map-get($colors, neutral);
+}
+
+.red {
+  background-color: map-get($colors, red);
+  color: map-get($colors, neutral);
+}
+
+.primary-text {
+  color: map-get($colors, primary-text);
+}
+
+.first-margin {
+  margin: map-get($margins, first);
+}

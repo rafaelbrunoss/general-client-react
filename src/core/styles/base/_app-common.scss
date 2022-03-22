@@ -1,0 +1,9 @@
+/*
+  This file contains the commom rules of the application
+*/
+
+@import '../utilities/variables';
+
+.container {
+  margin: map-get($margins, first);
+}

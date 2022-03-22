@@ -1,0 +1,20 @@
+{
+  "short_name": "General Client",
+  "name": "General Client (React)",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#61DBFB",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    "@babel/typescript",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "last 2 versions"
+        },
+        "modules": false,
+        "loose": false
+      }
+    ]
+  ],
+  "plugins": [
+    "plugin-transform-runtime",
+    "transform-class-properties",
+    "react-hot-loader/babel"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}

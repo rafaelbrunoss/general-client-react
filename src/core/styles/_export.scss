@@ -1,0 +1,9 @@
+@import 'utilities/variables';
+
+:export {
+  primary: map-get($colors, primary);
+  secondary: map-get($colors, secondary);
+  tertiary: map-get($colors, tertiary);
+  accent: map-get($colors, accent);
+  neutral: map-get($colors, neutral);
+}

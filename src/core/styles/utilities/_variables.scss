@@ -1,0 +1,49 @@
+/* 
+  This file should not contain rules, only variables
+*/
+
+$colors: (
+  primary: #246bce,
+  primary-lighten-1: lighten(#246bce, 10%),
+  primary-lighten-2: lighten(#246bce, 20%),
+  primary-lighten-3: lighten(#246bce, 30%),
+  primary-lighten-4: lighten(#246bce, 40%),
+  primary-lighten-5: lighten(#246bce, 50%),
+  primary-darken-1: darken(#246bce, 10%),
+  primary-darken-2: darken(#246bce, 20%),
+  primary-darken-3: darken(#246bce, 30%),
+  primary-text: #000000,
+  secondary: #24a0ed,
+  tertiary: #73c2f3,
+  neutral: #fcfeff,
+  red: #ff0000,
+  warning: #ffd000,
+);
+
+$widths: (
+  smartphone-min: 20rem,
+  smartphone-max: 31.5rem,
+  tablet-min: 37.5rem,
+  tablet-max: 64rem,
+);
+
+$heights: (
+  smartphone-min: 30rem,
+  smartphone-max: 50.75rem,
+  tablet-min: 50rem,
+  tablet-max: 90rem,
+);
+
+$margins: (
+  first: 1rem,
+  second: 1.1rem,
+  third: 1.2rem,
+);
+
+$font-size: (
+  x-large: 22,
+  large: 20,
+  medium: 18,
+  small: 14,
+  x-small: 12,
+);
