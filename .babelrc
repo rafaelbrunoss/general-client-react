@@ -14,9 +14,8 @@
     ]
   ],
   "plugins": [
-    "plugin-transform-runtime",
-    "transform-class-properties",
-    "react-hot-loader/babel"
+    "@babel/plugin-transform-runtime",
+    "transform-class-properties"
   ],
   "env": {
     "test": {
