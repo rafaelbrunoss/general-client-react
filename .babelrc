@@ -13,10 +13,7 @@
       }
     ]
   ],
-  "plugins": [
-    "@babel/plugin-transform-runtime",
-    "transform-class-properties"
-  ],
+  "plugins": ["@babel/plugin-transform-runtime", "transform-class-properties"],
   "env": {
     "test": {
       "plugins": ["transform-es2015-modules-commonjs"]
